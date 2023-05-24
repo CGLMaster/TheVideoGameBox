@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center" style="font-size:65px">
   <br>
   <img src="./Recursos/logo2.png" alt="Markdownify" height="300">
   <br>
