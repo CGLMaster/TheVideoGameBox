@@ -36,10 +36,11 @@ En resumen, la metodología ágil de Scrum fue fundamental para el éxito de nue
 
 Para demostrar su funcionamiento dejamos un video de la demo del proyecto en la cual se ven todos los aspectos que se pueden realizar.
 
-<div align="center">
-  [![Video Demo](https://img.youtube.com/vi/tBSbQB7yhEQ/0.jpg)](https://www.youtube.com/watch?v=tBSbQB7yhEQ)
-</div>
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=tBSbQB7yhEQ">
+    <img src="https://img.youtube.com/vi/tBSbQB7yhEQ/0.jpg" alt="Video Demo">
+  </a>
+</p>
 
 ## Integrantes
 
