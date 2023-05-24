@@ -12,6 +12,10 @@ The VideoGameBox es una aplicación de escritorio enfocada a aquellas personas q
 La aplicación The VideoGameBox es una copia del proyecto realizado en la asignatura **Gestión de proyectos software y metodologías de desarrollo (GPS)** en la **Universidad Complutense de Madrid (UCM)**. 
 El proyecto fue realizado por un equipo de 10 personas empleando para ello la metodología ágil de Scrum.
 
+Los videojuegos fueron extraídos de [IGDB API](https://api-docs.igdb.com/#examples), la cual es una API que proporciona información sobre cualquier juego existente. Para ello realizamos una extracción de los juegos con su respectiva información mediante Phyton.
+
+Toda la información se guarda en una base de MongoDB importando los videojuegos con formato JSON.
+
 ## Metodología
 
 Como bien se ha mencionado anteriormente se empleó una metodología ágil, para ser concretos **Scrum**. En la asignatura se decidió que esta metodología es la más eficiente y de las que más se usan en el ámbito laboral.
