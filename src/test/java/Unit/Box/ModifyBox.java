@@ -10,14 +10,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import static org.junit.Assert.assertNull;
-import static org.junit.Assert.fail;
 
-public class CreateBox {
-
+public class ModifyBox {
     private static SABox saBox;
 
     private static final String LIMIT_50 = new String(new char[51]).replace('\0', 'f');
     private static final String LIMIT_250 = new String(new char[251]).replace('\0', 'f');
+
     private static final TBox[] limit = {new TBox(LIMIT_50, "TEST_CREATE", Privacy.PRIVATE, new ArrayList<Genres>(Collections.singletonList(Genres.INDIE))),
             new TBox("TEST_CREATE", LIMIT_250, Privacy.PRIVATE, new ArrayList<Genres>(Collections.singletonList(Genres.INDIE)))};
     private static final TBox[] empty = {new TBox("", "TEST_CREATE", Privacy.PRIVATE, new ArrayList<Genres>(Collections.singletonList(Genres.INDIE))),
@@ -32,30 +31,18 @@ public class CreateBox {
     }
 
     @Test
-    public void testIncorrectInputCharLimit() {
-        //Comprobar que la box no se ha creado correctamente debido a que hay un campo que sobrepasa el limite de caracteres
+    public void modifyBoxCharLimit() {
         for (TBox tBox : limit) {
-            ObjectId result = saBox.createBox(tBox);
-
-            try {
-                assertNull(result);
-            } catch (Exception ae) {
-                fail(ae.getMessage());
-            }
+            ObjectId result = saBox.modifyBox(tBox);
+            assertNull(result);
         }
     }
 
     @Test
-    public void testIncorrectInputEmptyField() {
-        //Comprobar que la box no se ha creado correctamente debido a que hay un campo obligatorio vacio
+    public void modifyBoxEmptyFields() {
         for (TBox tBox : empty) {
-            ObjectId result = saBox.createBox(tBox);
-
-            try {
-                assertNull(result);
-            } catch (Exception ae) {
-                fail(ae.getMessage());
-            }
+            ObjectId result = saBox.modifyBox(tBox);
+            assertNull(result);
         }
     }
 }
