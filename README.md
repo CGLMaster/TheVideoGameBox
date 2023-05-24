@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./Recursos/logo.png" alt="Markdownify" width="200">
+  <img src="./Recursos/logo.png" alt="Markdownify" height="200">
   <br>
   The VideoGameBox
   <br>
