@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./Recursos/logo2.png" alt="Markdownify" height="300">
+  <img src="./Recursos/logo2.png" alt="Markdownify" height="200">
 </h1>
 
 # The VideoGameBox
@@ -9,7 +9,7 @@ The VideoGameBox es una aplicación de escritorio enfocada a aquellas personas q
 
 ## Información
 
-La aplicación The VideoGameBox es una copia del proyecto realizado en la asignatura Gestión de proyectos software y metodologías de desarrollo (GPS) en la Universidad Complutense de Madrid. 
+La aplicación The VideoGameBox es una copia del proyecto realizado en la asignatura **Gestión de proyectos software y metodologías de desarrollo (GPS)** en la **Universidad Complutense de Madrid (UCM)**. 
 El proyecto fue realizado por un equipo de 10 personas empleando para ello la metodología ágil de Scrum.
 
 ## Metodología
@@ -33,6 +33,14 @@ Durante el desarrollo del proyecto, utilizamos diversas herramientas de apoyo, c
 En resumen, la metodología ágil de Scrum fue fundamental para el éxito de nuestro proyecto. Nos permitió trabajar de manera colaborativa, adaptarnos a los cambios y entregar un producto de calidad de manera iterativa e incremental. Aprendimos la importancia de la comunicación, la transparencia y la retroalimentación continua en el proceso de desarrollo de software.
 
 ## Cómo funciona
+
+Para demostrar su funcionamiento dejamos un video de la demo del proyecto en la cual se ven todos los aspectos que se pueden realizar.
+
+<video controls>
+  <source src="https://youtu.be/tBSbQB7yhEQ" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
 
 ## Integrantes
 
