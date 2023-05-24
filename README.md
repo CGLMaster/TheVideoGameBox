@@ -36,7 +36,7 @@ Durante el desarrollo del proyecto, utilizamos diversas herramientas de apoyo, c
 
 En resumen, la metodología ágil de Scrum fue fundamental para el éxito de nuestro proyecto. Nos permitió trabajar de manera colaborativa, adaptarnos a los cambios y entregar un producto de calidad de manera iterativa e incremental. Aprendimos la importancia de la comunicación, la transparencia y la retroalimentación continua en el proceso de desarrollo de software.
 
-## Cómo funciona
+## ¿Cómo funciona?
 
 Para demostrar su funcionamiento dejamos un video de la demo del proyecto en la cual se ven todos los aspectos que se pueden realizar.
 
